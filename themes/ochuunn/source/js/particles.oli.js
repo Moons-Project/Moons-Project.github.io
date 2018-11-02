@@ -10,7 +10,7 @@ $(function () {
                 }
             },
             "color": {
-                "value": "#399c9c"
+                "value": "#006284"
             },
             "shape": {
                 "type": "circle",

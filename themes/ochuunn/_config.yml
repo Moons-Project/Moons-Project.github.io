@@ -1,7 +1,8 @@
 # head
 menu:
-  INDEX / 目录: /archives
-  sitemap: /sitemap.xml
+  PRODUCTIONS / 作品: /productions
+  POST / 公告: /archives
+
   # other menus
 
 rss: /atom.xml
@@ -12,8 +13,8 @@ date_format: 'MMMM D, YYYY'
 google_verification: false  # your token
 google_analytics: false   # your id
 
-livere_id: 'city'
-livere_uid: 'your uid'
+# livere_id: 'city'
+# livere_uid: 'your uid'
 
 start_year: 2018
 

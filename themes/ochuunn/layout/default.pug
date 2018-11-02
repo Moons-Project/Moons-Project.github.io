@@ -1,0 +1,18 @@
+extends views/empty.pug
+
+block head
+  title
+    = page.title + ' - ' + config.title
+
+block main
+  include mixins/post.pug
+  +post(page, 'post')
+
+  .index-wrapper
+    header.head.index.hide
+      h1.head-title.u-fl
+        = config.title
+      include views/nav.pug
+
+  include plugins/reward.pug
+  include plugins/livere.pug
