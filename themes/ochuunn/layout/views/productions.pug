@@ -4,13 +4,11 @@ html(lang="zh-CN")
     include head.pug
 
   body
-    #particles-oli-wrapper.hide
+    #particles-oli-wrapper.hide(style="z-index:-100;")
     main.main
       block main
 
     != js('js/particles.min.js')
     != js('js/particles.oli.js')
-    != js('js/scroller')
-    != js('js/main')
 
     include ../plugins/google.pug
